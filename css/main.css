@@ -273,6 +273,12 @@ input[type=number] {
   transition: all 0.4s ease-in-out;
 }
 
+@media (max-width: 767px) {
+  .search-cont {
+    width: 100%;
+  }
+}
+
 .search-cont.search-in {
   -webkit-transform: translateY(0);
           transform: translateY(0);
