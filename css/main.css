@@ -234,15 +234,6 @@ input[type=number] {
   padding-top: 145px;
 }
 
-.search-form .search-relative .Ellipse_4 {
-  border-radius: 50%;
-  background-color: white;
-  position: absolute;
-  left: 778px;
-  top: 66px;
-  z-index: 137;
-}
-
 .search-form .search-relative .close-btn {
   width: 45px;
   height: 45px;
@@ -280,12 +271,6 @@ input[type=number] {
           transform: translateY(-200px);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-}
-
-@media (max-width: 767px) {
-  .search-cont {
-    width: 100%;
-  }
 }
 
 .search-cont.search-in {
@@ -343,6 +328,12 @@ html[dir='ltr'] .search-button {
 
 .search-input::placeholder {
   color: #6e6e6e;
+}
+
+@media (max-width: 767px) {
+  .search-input {
+    width: 100%;
+  }
 }
 
 html[dir='ltr'] .search-input {
